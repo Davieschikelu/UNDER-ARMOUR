@@ -117,10 +117,132 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 /* footerbegin */
+@font-face {
+    font-family: stay;
+    src: url('../fonts/5b54d1e4ceb3d073-s.p.woff2');
+}
+@font-face {
+    font-family: stay1;
+    src: url('../fonts/57a58111cb82560b-s.p.woff2');
+}
 footer{
-    background-color: #F0F0F0;
+     background-color: #F0F0F0;
 }
 .footer{
+    background-color: #F0F0F0;
+    height: 800px;
+     margin: auto;
+    width: 97%;
+}
+.foot{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+   
+    gap: 50px;
+    padding: 48px ;
+}
+.footer-1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+}
+.footer-1 h3{
+margin: 16px 0;
+color: #1D1D1D;
+font-weight: 600;
+font-family: stay;
+font-size: 16px;
+}
+.stay{
+    gap: 10px;
+}
+.stay input{
+width: 260px;
+height: 45px;
+border-radius: 5px;
+border: .8px solid black;
+padding: 0 11px;
+font-family: stay;
+font-size: 16px;
+background-color: transparent;
+}
+.stay button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 11px;
+    font-family: stay;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    }
+    .foot span{
+        margin: 10px 0 0;
+        color: #5F5F5F;
+        font-weight: normal;
+        font-family: stay;
+        font-size: 10px;
+        }
+        .foot a{
+            color: #5F5F5F;
+        }
+.under{
+    margin: 20px 0;
+    gap: 10px;
+    height: 40px;
+}
+.und{
+    height: 9px;
+}
+.loow p{
+font-size: 12px;
+ color: #1D1D1D;
+ font-family: stay;
+}
+.loowe{
+    gap: 10px;
+}
+.loowe li{
+list-style: none;
+text-decoration: none;
+
+}
+.low{
+    height: 40px;
+}
+
+
+.copy{
+    color: #5F5F5F;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.copy a{
+    color: #5F5F5F;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.head h2{
+font-size: 12px;
+font-family: stay;
+margin: 0 0 24px;
+
+}
+.head a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: stay;
+    color: #1D1D1D;
+}
+.head a:hover{
+   border-bottom: 2px solid black;
 }
